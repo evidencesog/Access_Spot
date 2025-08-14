@@ -1,0 +1,24 @@
+[project]
+name = "access-spot"
+version = "0.1.0"
+description = "Wi-Fi Captive Portal with Python + dnsmasq + hostapd"
+authors = [
+    {name = "Princewill Emeka Joel"}
+]
+license = {text = "E7 Tech"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.116.1,<0.117.0)",
+    "uvicorn (>=0.35.0,<0.36.0)",
+    "rich (>=14.1.0,<15.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+python-dotenv = "^1.1.1"
+
