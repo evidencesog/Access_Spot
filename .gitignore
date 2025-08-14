@@ -58,3 +58,13 @@ build/
 dist/
 *.egg-info/
 
+# Local configuration files
+*.local
+*.sqlite3
+*.db
+
+
+
+# Environment variables
+.env.local
+.env.*.local
