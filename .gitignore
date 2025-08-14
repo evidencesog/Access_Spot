@@ -3,9 +3,7 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-
-# Env files
-.env
+*pkl 
 
 # Byte-compiled
 *.pyc
@@ -22,4 +20,41 @@ docker-compose.override.yml
 
 
 
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Poetry / pipenv
+.poetry/
+poetry.lock
+Pipfile.lock
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+*.env
+
+# Coverage / testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
 
